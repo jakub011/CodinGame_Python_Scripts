@@ -1,0 +1,37 @@
+[TYPE-REVERSE]
+
+Test 1
+
+Input
+1
+Expected output
+1
+
+Test 2
+
+Input
+123
+
+Expected output
+1-2-3
+
+Test 3
+
+Input
+10
+
+Expected output
+1-0
+
+Test 4
+
+Input
+123456789
+
+Expected output
+1-2-3-4-5-6-7-8-9
+
+
+SOLUTION [python]
+
+print('-'.join([b for b in input()]))
